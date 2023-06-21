@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 1000px;
+  height: 500px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card .gambar img {
+  width: 250px;
+  height: 100%;
+}
+
+.card .detail {
+  padding: 20px 20px;
+}
+
+.card .detail .title {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 7px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: hsl(228, 12%, 48%);
+}
+
+.card .detail h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.card .detail .desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: hsl(228, 12%, 48%);
+}
+
+.card .detail .harga {
+  font-size: 2rem;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+  margin-right: 20px;
+}
+
+.card .detail .harga-asli {
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.card .detail .tombol {
+  background-color: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.card .detail .tombol p {
+  color: white;
+}
